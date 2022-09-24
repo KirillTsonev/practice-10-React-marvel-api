@@ -22,6 +22,9 @@ class MarvelService {
         return this._transformCharacter(res.data.results[0])
     }
 
+    //http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg
+    //http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+
     _transformCharacter = (char) => {
         return {
             name: char.name,
